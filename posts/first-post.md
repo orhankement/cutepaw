@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Why Cats Purr — And What It Really Means"
 date: 2025-07-19
 ---
