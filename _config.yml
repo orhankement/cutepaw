@@ -1,6 +1,19 @@
 title: Cutepaw
 description: A daily blog about pets, cats, dogs, and other lovely animals.
-baseurl: ""
+baseurl: ""  # Eğer site bir alt klasörde değilse boş bırakılır
 url: "https://cutepaw.net"
+
+# Tema tanımlanmalı (örnek olarak minima kullanıldı)
 theme: null
- 
+
+# Yazıların markdown dilinde düzgün işlenmesi için
+markdown: kramdown
+
+# Yazarlık bilgileri (isteğe bağlı)
+author:
+  name: Orhan
+
+# SEO ve RSS gibi önemli eklentiler
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
