@@ -23,7 +23,18 @@
         </nav>
   </header>
 
-<main class="container">
+<section class="categories" id="categories">
+    <h2>Latest Posts</h2>
+    <ul>
+      {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          <small>({{ post.date | date: "%B %d, %Y" }})</small>
+        </li>
+      {% endfor %}
+    </ul>
+
+  <main class="container">
         <section class="hero" id="home">
             <h1>Everything for Our Furry Friends</h1>
             <p>Expert advice, current information, and practical tips for your pet's health, care, and happiness. Strengthen the bond with your beloved companions!</p>
@@ -140,18 +151,6 @@
             </div>
         </section>
 
-  
-   <section class="categories" id="categories">
-    <h2>Latest Posts</h2>
-    <ul>
-      {% for post in site.posts %}
-        <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-          <small>({{ post.date | date: "%B %d, %Y" }})</small>
-        </li>
-      {% endfor %}
-    </ul>
-  </main>
 
   <footer>
    <div class="container">
