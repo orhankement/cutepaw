@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Top 5 Dog Breeds for Families"
 date: 2025-07-19 10:00:00 +0300
 ---
