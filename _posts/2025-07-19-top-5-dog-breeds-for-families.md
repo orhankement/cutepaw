@@ -26,3 +26,4 @@ Poodles are highly intelligent and hypoallergenic, making them a smart choice fo
 **Final Thoughts**
 
 Every dog is unique, so it’s important to consider your living space, time commitment, and activity level before choosing a breed. A well-matched pet can bring years of love and joy to your home. 🐶
+ 
